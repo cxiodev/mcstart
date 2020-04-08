@@ -1,0 +1,10 @@
+{
+    "servers": [
+        {
+            "name": "bungee",
+            "core": "/root/bungee/core.jar",
+            "port": 25565,
+            "memory": 4
+        }
+    ]
+}
