@@ -4,7 +4,7 @@ import json, subprocess
 print('\nmcStart v1.0 by nesclassdev\ngithub.com/nesclassdev/mcstart\n')
 
 print(u''.join('Удаляю предыдущие следы запуска...'))
-print('killall java; killall screen')
+print('killall screen')
 
 with open('config.json', 'r') as file:
     data = json.load(file)
