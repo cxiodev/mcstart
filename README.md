@@ -8,7 +8,6 @@
 * Python 3.x
 * screen (yum install screen)
 * psmisc (yum install psmisc)
-* wget (yum install wget)
 
 ### Установка
 ```sh
