@@ -4,14 +4,11 @@
 
 **mcstart** - это open-source скрипт, предназначенный для автоматического запуска/перезапуска группы Minecraft серверов. Теперь, вам не придётся прописывать все команды для запуска вручную!
 
-## Запуск скрипта
-```sh
-python mcstart.py
-```
 ### Требования
 * Python 3.x
 * screen (yum install screen)
 * psmisc (yum install psmisc)
+* wget (yum install wget)
 
 ### Установка
 ```sh
@@ -36,3 +33,8 @@ config.json:
 **core** - путь к ядру сервера  
 **port** - выделенный порт  
 **memory** - кол-во выделяемой памяти (в гигабайтах)  
+
+## Запуск скрипта
+```sh
+python mcstart.py
+```
